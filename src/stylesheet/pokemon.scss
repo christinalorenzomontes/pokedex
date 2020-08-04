@@ -1,0 +1,68 @@
+.card {
+  border: 1px solid silver;
+  border-radius: 12px;
+  background-color: lightcyan;
+  margin: 12px;
+  width: 140px;
+  height: 170px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.card-title {
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+  border-bottom: 1px solid silver;
+  padding: 4px;
+  margin: 0;
+  font-weight: bold;
+}
+.card-img {
+  border-bottom: 1px solid silver;
+}
+.card-description {
+  margin: 4px;
+  padding: 4px;
+  color: darkgray;
+  text-transform: uppercase;
+  font-size: 10px;
+  list-style: none;
+  font-weight: bold;
+}
+.fire {
+  color: red;
+  background-color: lightcoral;
+  border-radius: 15%;
+  width: 28px;
+}
+.poison {
+  color: purple;
+  background-color: violet;
+  width: 41px;
+  border-radius: 15%;
+}
+.grass {
+  color: green;
+  width: 35px;
+  background-color: lightgreen;
+  border-radius: 15%;
+}
+.water {
+  background-color: lightseagreen;
+  color: darkblue;
+  border-radius: 15%;
+  width: 40px;
+}
+.flying {
+  background-color: lightgray;
+  color: lightseagreen;
+  border-radius: 15%;
+  width: 42px;
+}
+.bug {
+  color: darkgoldenrod;
+  border-radius: 15%;
+  width: 35px;
+  background-color: lightyellow;
+}
